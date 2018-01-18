@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="basic.android" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>expert-android</name>
+    <description>
+        A prototype app used for the master thesis of Jonas Semeelen
+    </description>
+    <author email="semeelen.jonas@gmail.com">
+        Jonas Semeelen
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <preference name="CodePushServerUrl" value="http://192.168.0.191:3002" />
+        <preference name="CodePushDeploymentKey" value="RP0TQqeSDYqLgicIZc4usj3Yrg0V4ksvOXqog" />
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>

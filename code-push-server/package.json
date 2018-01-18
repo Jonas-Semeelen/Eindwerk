@@ -1,0 +1,161 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "code-push-server",
+        "scope": null,
+        "escapedName": "code-push-server",
+        "name": "code-push-server",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Jonas\\Desktop\\School\\masterproef"
+    ]
+  ],
+  "_from": "code-push-server@latest",
+  "_id": "code-push-server@0.2.17",
+  "_inCache": true,
+  "_location": "/code-push-server",
+  "_nodeVersion": "6.9.5",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/code-push-server-0.2.17.tgz_1487666444391_0.6492656008340418"
+  },
+  "_npmUser": {
+    "name": "songlee",
+    "email": "lisong2010@gmail.com"
+  },
+  "_npmVersion": "4.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "code-push-server",
+    "scope": null,
+    "escapedName": "code-push-server",
+    "name": "code-push-server",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/code-push-server/-/code-push-server-0.2.17.tgz",
+  "_shasum": "acb7c4e780e150a05a19e2cd6437a53f4fdc26e2",
+  "_shrinkwrap": null,
+  "_spec": "code-push-server",
+  "_where": "C:\\Users\\Jonas\\Desktop\\School\\masterproef",
+  "author": {
+    "name": "Tab Lee",
+    "email": "lisong2010@gmail.com",
+    "url": "https://github.com/lisong/"
+  },
+  "bin": {
+    "code-push-server": "./bin/www",
+    "code-push-server-db": "./bin/db"
+  },
+  "bugs": {
+    "url": "https://github.com/lisong/code-push-server/issues"
+  },
+  "dependencies": {
+    "aliyun-oss-upload-stream": "^1.3.0",
+    "aliyun-sdk": "^1.9.17",
+    "aws-sdk": "^2.7.0",
+    "bcryptjs": "^2.3.0",
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.3.3",
+    "express": "^4.14.0",
+    "extract-zip": "^1.6.0",
+    "formidable": "^1.0.17",
+    "fs-extra": "^2.0.0",
+    "helmet": "^3.1.0",
+    "i18n": "^0.8.3",
+    "jsonwebtoken": "^7.1.7",
+    "lodash": "^4.5.1",
+    "log4js": "^1.1.0",
+    "markdown-it": "^8.0.1",
+    "moment": "^2.14.1",
+    "morgan": "^1.7.0",
+    "mysql": "^2.10.2",
+    "nodemailer": "^3.1.3",
+    "pug": "^2.0.0-beta6",
+    "qiniu": "^6.1.10",
+    "rand-token": "^0.3.0",
+    "recursive-fs": "^1.0.0",
+    "redis": "^2.6.2",
+    "request": "^2.72.0",
+    "sequelize": "^3.24.5",
+    "serve-favicon": "~2.3.0",
+    "slash": "^1.0.0",
+    "validator": "^6.1.0",
+    "yargs": "^6.2.0",
+    "yazl": "^2.3.0"
+  },
+  "description": "CodePush service is hotupdate services which adapter react-native-code-push and cordova-plugin-code-push",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "should": "^11.2.0",
+    "supertest": "^3.0.0",
+    "supervisor": "^0.12.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "acb7c4e780e150a05a19e2cd6437a53f4fdc26e2",
+    "tarball": "https://registry.npmjs.org/code-push-server/-/code-push-server-0.2.17.tgz"
+  },
+  "engines": {
+    "node": ">= 6.0",
+    "npm": ">= 3.10.8"
+  },
+  "files": [
+    "bin",
+    "config",
+    "core",
+    "docs",
+    "models",
+    "public",
+    "routes",
+    "sql",
+    "views",
+    "app.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "gitHead": "61d4c7aa7e127450be281f190ce357d0c4c50497",
+  "homepage": "https://github.com/lisong/code-push-server#readme",
+  "keywords": [
+    "code-push",
+    "react-native",
+    "cordova",
+    "services",
+    "code",
+    "push"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "songlee",
+      "email": "lisong2010@gmail.com"
+    }
+  ],
+  "name": "code-push-server",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lisong/code-push-server.git"
+  },
+  "scripts": {
+    "coverage": "make coverage",
+    "dev": "supervisor ./bin/www",
+    "init": "node ./bin/db init",
+    "start": "node ./bin/www",
+    "test": "make test",
+    "test-win": "mocha test/api/init test/api/users test/api/auth test/api/account test/api/accessKeys test/api/sessions test/api/apps test/api/index --recursive --timeout 15000",
+    "upgrade": "node ./bin/db upgrade"
+  },
+  "version": "0.2.17"
+}

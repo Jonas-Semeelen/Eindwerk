@@ -1,0 +1,41 @@
+.snelkoppelingen {
+	position: absolute;
+	top: 15%;
+	width: 90%;
+}
+
+.snelkoppelingen h1 {
+	font-size: 30px;
+	padding-left: 15px;
+
+}
+
+.nummer {
+	padding-bottom: 100px;
+}
+
+.nummer a {
+	float: right;
+	font-size: 50px;
+	color: green;
+}
+
+#header {
+	background-color: #1855a5;
+	height: 10%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	padding-left: 15px;
+	float: left;
+}
+
+form {
+	padding-left: 15px;
+}

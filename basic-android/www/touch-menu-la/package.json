@@ -1,0 +1,100 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "touch-menu-la",
+        "scope": null,
+        "escapedName": "touch-menu-la",
+        "name": "touch-menu-la",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Jonas\\Google Drive\\masterproef\\basic-android"
+    ]
+  ],
+  "_from": "touch-menu-la@latest",
+  "_id": "touch-menu-la@0.5.0",
+  "_inCache": true,
+  "_location": "/touch-menu-la",
+  "_nodeVersion": "0.12.7",
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/touch-menu-la-0.5.0.tgz_1454946838379_0.6780697775539011"
+  },
+  "_npmUser": {
+    "name": "ericktatsui",
+    "email": "ericktatsui@gmail.com"
+  },
+  "_npmVersion": "2.11.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "touch-menu-la",
+    "scope": null,
+    "escapedName": "touch-menu-la",
+    "name": "touch-menu-la",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/touch-menu-la/-/touch-menu-la-0.5.0.tgz",
+  "_shasum": "4ce86ddb039e078cf60e09aa9118ab1a81631657",
+  "_shrinkwrap": null,
+  "_spec": "touch-menu-la",
+  "_where": "C:\\Users\\Jonas\\Google Drive\\masterproef\\basic-android",
+  "author": {
+    "name": "Erick Tatsui"
+  },
+  "bugs": {
+    "url": "https://github.com/ericktatsui/Touch-Menu-Like-Android/issues"
+  },
+  "dependencies": {},
+  "description": "A touch menu like Navigation Drawer of Android.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "4ce86ddb039e078cf60e09aa9118ab1a81631657",
+    "tarball": "https://registry.npmjs.org/touch-menu-la/-/touch-menu-la-0.5.0.tgz"
+  },
+  "gitHead": "3997df27010773e7ac096fcc0c6d7c5affb52742",
+  "homepage": "https://github.com/ericktatsui/Touch-Menu-Like-Android#readme",
+  "keywords": [
+    "menu",
+    "slide",
+    "menu",
+    "like",
+    "android",
+    "navigator",
+    "drawer",
+    "html5",
+    "javascript",
+    "plugin",
+    "touch",
+    "menu",
+    "cordova",
+    "ionic",
+    "like android"
+  ],
+  "license": "MIT",
+  "main": "sample.hmtl",
+  "maintainers": [
+    {
+      "name": "ericktatsui",
+      "email": "ericktatsui@gmail.com"
+    }
+  ],
+  "name": "touch-menu-la",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericktatsui/Touch-Menu-Like-Android.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.5.0"
+}

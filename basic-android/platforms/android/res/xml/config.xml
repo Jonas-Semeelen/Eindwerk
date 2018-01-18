@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="basic.android" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="CallNumber">
+        <param name="android-package" value="mx.ferreyra.callnumber.CFCallNumber" />
+    </feature>
+    <feature name="NativeStorage">
+        <param name="android-package" value="NativeStorage" />
+    </feature>
+    <feature name="Zip">
+        <param name="android-package" value="org.apache.cordova.Zip" />
+    </feature>
+    <feature name="CodePush">
+        <param name="android-package" value="com.microsoft.cordova.CodePush" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>basic-android</name>
+    <description>
+        A prototype app used for the master thesis of Jonas Semeelen
+    </description>
+    <author email="semeelen.jonas@gmail.com">
+        Jonas Semeelen
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="CodePushServerUrl" value="http://192.168.0.191:3002" />
+    <preference name="CodePushDeploymentKey" value="UbYMwtQzB7l3PtpflVCToFqdXODy4ksvOXqog" />
+</widget>

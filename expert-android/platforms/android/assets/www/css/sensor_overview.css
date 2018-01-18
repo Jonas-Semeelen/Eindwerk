@@ -1,0 +1,99 @@
+#header {
+	background-color: #1855a5;
+	height: 10%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.content {
+	position: absolute;
+	top: 10%;
+	left: 2.5%;
+	width: 95%;
+	height: 90%;
+}
+
+.tasks {
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	height: 90%;
+	background-color: white;
+}
+
+.sensor {
+	border-color: black;
+	border-width: 1px;
+	border-style: ridge;
+	background-color: #a3eaf4;
+	width: 42.5%;
+	height: 25%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	text-align: center;
+}
+
+.sensor h1 {
+	font-size: 13px;
+}
+
+
+.sensor_value {
+	margin: auto;
+	width: 90%;
+	height: 70%;
+	border-color: black;
+	border-width: 1px;
+	border-style: ridge;
+	text-align: center;
+	line-height: 90px;
+	font-size: 30px;
+	background-color: #80e2f0;
+}
+
+
+body {
+	background-color: white;
+}
+
+a {
+	color:black;
+}
+
+canvas{
+
+  width:95% !important;
+
+}
+
+ul.task {
+ width: 90%;
+ height: 100%;
+ background: white;
+ color: white;
+ list-style: none;
+ padding-left: 5%;
+ padding-top: 0px;
+ margin-top:0px;
+}
+ 
+li.taskItem {
+ padding-left: 10px;
+ height: 60px;
+ background: white;
+ border-bottom: 1px solid #9ea2a8;
+ text-align: center;
+ line-height: 60px;
+ text-align: left;
+ color: black;
+
+}

@@ -1,0 +1,1 @@
+De app bevat hardgecodeerde IP-adressen waardoor deze app niet zonder aanpassingen kan worden getest
